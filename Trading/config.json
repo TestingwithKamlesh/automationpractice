@@ -1,13 +1,15 @@
 {
-  "symbol": "BTC/USDT",
-  "timeframe": "5m",
+  "symbol": "BTCUSD#",
+  "timeframe": "15m",
   "initial_capital": 10000.0,
   "risk_per_trade": 0.01,
-  "risk_reward_ratio": 1.2,
-  "rsi_hook_threshold_long": 40,
-  "rsi_hook_threshold_short": 60,
-  "volume_multiplier": 1.1,
-  "ema_macro": 400,
-  "ema_micro_fast": 20,
-  "ema_micro_slow": 50
+  "risk_reward_ratio": 2.0,
+  "ema_length": 9,
+  "ema_filter": 200,
+  "macd_fast": 12,
+  "macd_slow": 26,
+  "macd_signal": 9,
+  "adx_period": 14,
+  "adx_min": 15.0,
+  "min_body_ratio": 0.50
 }
